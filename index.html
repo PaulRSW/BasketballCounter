@@ -1,0 +1,32 @@
+<!doctype html>
+<HTML>
+	<HEAD>
+		<link rel="stylesheet" href="styles.css" />
+
+	</HEAD>
+	<BODY>
+
+		<div id="wrapper-div">
+			<div id="home-div">
+				<h1>HOME</h1>
+				<div id="home-score">0</div>
+				<div class="btn-wrapper">
+					<button id="add-btn" onclick="addScore(1, 'home')">+1</button>
+					<button id="add-btn" onclick="addScore(2, 'home')">+2</button>
+					<button id="add-btn" onclick="addScore(3, 'home')">+3</button>
+				</div>
+			</div>
+			<div id="guest-div">
+				<h1>GUEST</h1>
+				<div id="guest-score">0</div>
+				<div class="btn-wrapper">
+					<button id="add-btn" onclick="addScore(1, 'guest')">+1</button>
+					<button id="add-btn" onclick="addScore(2, 'guest')">+2</button>
+					<button id="add-btn" onclick="addScore(3, 'guest')">+3</button>
+				</div>
+			</div>
+		</div>
+    <script src="index.js"></script>
+  </BODY>
+
+</HTML>

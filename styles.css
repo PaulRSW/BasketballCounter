@@ -1,0 +1,94 @@
+@font-face {
+    /* font-family: myFirstFont; */
+      font-family: 'Cursed Timer ULiL';
+    src: url(CursedTimerUlil-Aznm.ttf);
+}
+body{
+
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  margin: 0;
+}
+
+#wrapper-div{
+    padding:0;
+    margin: 0 auto;
+    background:#1B244A;
+    height:385px;
+    width:575px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#home-div{
+
+    margin:68px 0;
+
+    /* margin:68px 0 21px 82px; */
+}
+#guest-div{
+    margin:68px 0;
+
+}
+
+#home-score{
+  width:155px;
+  height:120px;
+  background: #080001;
+  line-height: 127px;
+  font-family: 'Cursed Timer ULiL';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 127px;
+  text-align: center;
+  color: #F94F6D;
+  margin:0 0 26px 0;
+
+}
+#guest-score{
+    width:155px;
+    height:120px;
+    background: #080001;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+    margin:0 0 26px 0;
+}
+
+
+h1{
+    text-align: center;
+    margin:0 0 21px;
+    padding:2px 5px 0;
+    font-family:Verdana;
+    font-weight: 700;
+    color:#EEEEEE;
+    font-size: 36px;
+}
+
+.btn-wrapper{
+  display:flex;
+  justify-content: space-between;
+}
+#add-btn{
+  margin:0;
+  padding:0;
+  width:45px;
+  height:45px;
+  color:#9AABD8;
+  border: 2px solid #9AABD8;
+  font-style: normal;
+  border-radius: 5px;
+  font-family: 'Cursed Timer ULiL';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  background:#1B244A;
+}
